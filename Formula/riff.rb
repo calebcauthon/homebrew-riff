@@ -1,8 +1,8 @@
 class Riff < Formula
   desc "Local-first voice notes and transcription CLI"
   homepage "https://github.com/calebcauthon/riff"
-  url "https://github.com/calebcauthon/riff/archive/refs/tags/v0.3.6.tar.gz"
-  sha256 "eff771147c852339d2503cdf63e44227b389a15d5a6e39efcf05bad12a484007"
+  url "https://github.com/calebcauthon/riff/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "c233e533e817faef716c6a0c1c7339b975297a790b856bba95d21553ec235487"
   head "https://github.com/calebcauthon/riff.git", branch: "main"
 
   depends_on "rust" => :build
